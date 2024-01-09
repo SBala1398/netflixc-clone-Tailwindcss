@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,9 +19,7 @@
         }
     </style>
 </head>
-
 <body class="bg-black text-white">
-
     <!-- Navigation Bar -->
     <nav class="fixed w-full  z-10 transition duration-300 ease-in-out bg-black border-b border-gray-800">
         <div class="container mx-auto flex items-center justify-between p-4">
@@ -32,9 +29,9 @@
 
             <!-- Navigation Links (Hidden on Small Screens) -->
             <ul class="hidden md:flex items-center space-x-4">
-                <li><a href="#" class="text-white hover:text-gray-300 text-sm">Home</a></li>
-                <li><a href="#" class="text-white hover:text-gray-300 text-sm">TV Shows</a></li>
-                <li><a href="#" class="text-white hover:text-gray-300 text-sm">Movies</a></li>
+                <li><a href="index.html" class="text-white hover:text-gray-300 text-sm">Home</a></li>
+                <li><a href="shows.html" class="text-white hover:text-gray-300 text-sm">TV Shows</a></li>
+                <li><a href="movies.html" class="text-white hover:text-gray-300 text-sm">Movies</a></li>
                 <li><a href="#" class="text-white hover:text-gray-300 text-sm">New & Popular</a></li>
                 <li><a href="#" class="text-white hover:text-gray-300 text-sm">My List</a></li>
             </ul>
@@ -62,9 +59,7 @@
                     </svg>
 
                 </button>
-
             </div>
-
             <!-- Notification Icon -->
             <div class="flex items-center">
                 <button class="text-white focus:outline-none">
@@ -99,7 +94,6 @@
 
         </div>
     </nav>
-
     <!-- Hero Section done-->
     <section class="relative h-screen flex items-center">
         <!-- Background Image -->
@@ -125,7 +119,6 @@
         </div>
     </section>
     <!-- premium -->
-    
     <div class="container mx-auto">
 
         <!-- Responsive Email Form done-->
@@ -143,9 +136,7 @@
                     Get Started
                 </button>
             </div>
-
         </div>
-
     </div>
     <!-- recommended done -->
     <section class="mt-10 text-center border-b-2 border-red-700">
@@ -214,7 +205,6 @@
             </div>
         </div>
     </section>
-
     <!-- Top 10 Web Series Section done -->
     <section class="mt-10 text-center border-b-2 border-red-700">
         <h2 class="text-3xl font-bold mb-4">Top Web Series</h2>
@@ -285,7 +275,6 @@
             </div>
         </div>
     </section>
-
     <!-- New Collections Section -->
     <section class="mt-10 text-center border-b-2 border-red-700">
         <h2 class="text-2xl font-bold mb-4">Famous Collections</h2>
@@ -353,11 +342,9 @@
             </div>
         </div>
     </section>
-
     <!-- list-->
     <section class=" text-white p-8 ">
         <h3 class="text-xl mb-4 text-center">Explore Categories</h3>
-
         <div class="grid grid-cols-1 text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <a href="#" class="hover:bg-gray-900 bg-red-700 p-4 ">Movies</a>
             <a href="#" class="hover:bg-gray-900 bg-red-700 p-4 ">TV Shows</a>
@@ -366,15 +353,11 @@
             <!-- Add more categories as needed -->
         </div>
     </section>
-
-
     <!-- About Section -->
     <footer class="bg-black text-white p-8">
         <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <!-- Logo or Brand Name -->
             <h1 class="text-2xl font-bold">Netflix</h1>
-
-
             <!-- Footer Navigation -->
             <nav class="mt-4 md:mt-0 flex items-center">
                 <a href="#" class="text-gray-300 hover:text-white mr-4">Contact</a>
@@ -384,9 +367,6 @@
 
                 <!-- Add more features here if needed -->
             </nav>
-
-
-
             <!-- Social Media Links -->
             <div class="flex mt-4 md:mt-0">
                 <a href="#" class="text-gray-300 hover:text-white mr-4">
@@ -400,7 +380,6 @@
                 </a>
             </div>
         </div>
-
         <!-- Copyright and Legal Information -->
         <div class="mt-8 text-center text-gray-500">
             <p>&copy; 2023 Netflix. All rights reserved.</p>
@@ -413,16 +392,13 @@
         const menuToggle = document.getElementById('menuToggle');
         const menu = document.getElementById('menu');
         const closeMenu = document.getElementById('closeMenu');
-
         menuToggle.addEventListener('click', () => {
             menu.classList.toggle('hidden');
         });
-
         closeMenu.addEventListener('click', () => {
             menu.classList.add('hidden');
         });
         // recommended
     </script>
 </body>
-
 </html>
